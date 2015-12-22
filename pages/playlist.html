@@ -1,0 +1,35 @@
+<!-- start box -->
+<div class="box light">
+    <div class="row">
+        <h3>At Work - <span style="font-style: italics;">Jody Christian</span></h3>
+        <div class="playlist">
+            <div class="prow" ng-repeat="song in songs" test>
+                <div class="playpause">
+                </div>
+                <div class="number">
+                    1
+                </div>
+                <span>
+                <div class="song">
+                    {{song.title}}
+                </div>
+                <div class="cd">
+                    <a href="#">
+                    {{song.album}}
+                    </a>
+                </div>
+                     <div class="by">by</div>
+                <div class="artist">
+                    <a href="#">
+                        {{song.artist}}
+                    </a>
+                </div>
+                </span>
+                <div class="time">
+                    4:11
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end box -->
+</div>

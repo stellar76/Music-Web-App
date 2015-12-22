@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="musicApp">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]> <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script> <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script> <![endif]-->
+</head>
+
+<body>
+    <div id="playerbar">
+        <div class="inner">
+          <i class="fa fa-bars"></i>
+        </div>
+    </div>
+    <div class="leftcol">
+      <div id="togglenav">
+        <i class="fa fa-bars"></i>
+      </div>
+        <!-- menu block -->
+        <div class="menu-block">
+            <div class="menu-title">
+                AFR Music
+            </div>
+            <a class="item">
+                Artists
+            </a>
+            <a class="item">
+                Albums
+            </a>
+            <a class="item">
+                Genres
+            </a>
+            <a class="item">
+                Popolar
+            </a>
+            <a class="item">
+                Seasonal
+            </a>
+        </div>
+        <!-- end menu block -->
+        <!-- menu block -->
+        <div class="menu-block">
+            <div class="menu-title">
+                Recommended
+            </div>
+            <a class="item">
+                Most Recommended
+            </a>
+            <a class="item">
+                Playlists
+            </a>
+            <a class="item">
+                Albums
+            </a>
+            <a class="item">
+                Artists
+            </a>
+            <a class="item">
+                Popolar
+            </a>
+        </div>
+        <!-- end menu block -->
+        <!-- menu block -->
+        <div class="menu-block">
+            <div class="menu-title">
+                Jody's Music
+            </div>
+            <a class="item">
+                Recently Played
+            </a>
+            <a class="item">
+                Playlists
+            </a>
+            <div class="sub-block">
+                <a class="item" href="#playlist">
+                    At Work
+                </a>
+                <a class="item">
+                   Workout
+                </a>
+                <a class="item">
+                    Before Bedtime
+                </a>
+            </div>
+        </div>
+        <!-- end menu block -->
+    </div>
+    <div class="rightcol">
+        <div ng-view class="animated fadeIn">
+        </div>
+    </div>
+    <script src="https://s3.amazonaws.com/penny-worth/jquery213.js"></script>
+    <script src="https://s3.amazonaws.com/penny-worth/jaliswall.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+    $(function(){
+      $('#togglenav').click(funciton(){
+          $('.leftcol').toggleClass('open');
+      });
+    });
+    $(document).ready(function() {
+        $('prow').on('mouseenter', function() {
+            $(this).find('.playpause').show();
+        });
+    });
+    </script>
+</body>
+
+</html>

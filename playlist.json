@@ -1,0 +1,57 @@
+{
+    "items": [{
+        "id": "163966",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/112233m4a",
+        "title": "Funky Jesus Music",
+        "artist": "Toby Mac",
+        "album": "Tonight",
+        "artistimage": "https://placeimg.com/350/350/tech/grayscale",
+        "albumimage": "img/album/51pGcpkgD+L.jpg",
+        "duration": "3:16"
+  }, {
+        "id": "163966",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/x.m4a",
+        "title": "Losing My Religeon",
+        "artist": "Kirk Franklin",
+        "album": "Losing My Religeon",
+        "artistimage": "https://placeimg.com/350/350/tech/grayscale",
+        "albumimage": "img/album/Kirk-Franklin-2015.jpg",
+        "duration": "7:21"
+  }, {
+        "id": "163967",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/x.m4a",
+        "title": "Oceans",
+        "artist": "Hillsong United",
+        "album": "Zion",
+        "artistimage": "http://cdn.movieweb.com/img.news/NE8Yop90CD49b8_1_1.jpg",
+        "albumimage": "img/albums/zion.png",
+        "duration": "5:33"
+  }, {
+        "id": "163968",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/x.m4a",
+        "title": "Solar Detroit - Original Mix",
+        "artist": "Maceo Plex",
+        "album": "Solar Sampler",
+        "artistimage": "https://placeimg.com/350/350/tech/grayscale",
+        "albumimage": "http://www.knightsoftheturntable.co.uk/wp-content/uploads/2015/07/maceo-plex-solar-sample.jpg",
+        "duration": "3:24"
+  }, {
+        "id": "163969",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/x.m4a",
+        "title": "Everyone's Got Something",
+        "artist": "Perrin Lamb",
+        "album": "Back To You",
+        "artistimage": "https://placeimg.com/350/350/tech/grayscale",
+        "albumimage": "https://a2-images.myspacecdn.com/images02/152/568713176466483ea2ed7f5f3d22aa4a/600x600.jpg",
+        "duration": "4:35"
+  }, {
+        "id": "163970",
+        "surl": "https://s3.amazonaws.com/music-transcode-out/m/x.m4a",
+        "title": "Constant Muse",
+        "artist": "Denison Witmer",
+        "album": "Denison Witmer",
+        "artistimage": "https://placeimg.com/350/350/tech/grayscale",
+        "albumimage": "https://f1.bcbits.com/img/a0756117634_5.jpg",
+        "duration": "5:02"
+  }]
+}
